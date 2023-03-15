@@ -1,0 +1,188 @@
+{
+  "acts-geometry-hierarchy-map": {
+    "format-version": 0,
+    "value-identifier": "digitization-configuration"
+  },
+  "entries": [
+    {
+      "NAME": "OuterMostEndCap::NegativeEndcap",
+      "volume": 2,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "InnerPixels::NegativeEndcap",
+      "volume": 12,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "InnerPixels::Barrel",
+      "volume": 13,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.0025,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.0025,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "InnerPixels::PositiveEndcap",
+      "volume": 14,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "OuterPixels::NegativeEndcap",
+      "volume": 17,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "OuterPixels::Barrel",
+      "volume": 18,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "OuterPixels::PositiveEndcap",
+      "volume": 19,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "OuterMostBarrel::Barrel",
+      "volume": 21,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    },
+    {
+      "NAME": "OuterMostEndCap::PositiveEndcap",
+      "volume": 22,
+      "value": {
+        "smearing": [
+          {
+            "index": 0,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          },
+          {
+            "index": 1,
+            "mean": 0.0,
+            "stddev": 0.01,
+            "type": "Gauss"
+          }
+        ]
+      }
+    }
+  ]
+}

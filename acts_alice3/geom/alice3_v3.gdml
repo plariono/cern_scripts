@@ -1,0 +1,1843 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="pos1" unit="cm" x="0" y="0" z="0"/>
+    <rotation name="rot1" unit="deg" x="0" y="0" z="0"/>
+    <position name="FT3Sensor_0_0_1inFT3Chip0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip0_1inFT3Layer0_0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_0_1inFT3Innerpos" x="0" y="0" z="-26" unit="cm"/>
+    <rotation name="FT3Layer0_0_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_1_1inFT3Chip1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip1_1inFT3Layer0_1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_1_1inFT3Innerpos" x="0" y="0" z="-30" unit="cm"/>
+    <rotation name="FT3Layer0_1_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_2_1inFT3Chip2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip2_1inFT3Layer0_2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_2_1inFT3Innerpos" x="0" y="0" z="-34" unit="cm"/>
+    <rotation name="FT3Layer0_2_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_0_1inFT3Chip00x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip0_10x1inFT3Layer1_0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_0_1inFT3Innerpos" x="0" y="0" z="26" unit="cm"/>
+    <rotation name="FT3Layer1_0_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_1_1inFT3Chip10x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip1_10x1inFT3Layer1_1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_1_1inFT3Innerpos" x="0" y="0" z="30" unit="cm"/>
+    <rotation name="FT3Layer1_1_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_2_1inFT3Chip20x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip2_10x1inFT3Layer1_2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_2_1inFT3Innerpos" x="0" y="0" z="34" unit="cm"/>
+    <rotation name="FT3Layer1_2_1inFT3Innerrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Inner_2inOUT_PIPEVACUUMpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="OUT_PIPEVACUUM_1inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="OUT_PIPE_1inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="INN_PIPE_1inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="INN_PIPEVACUUM_1inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="ITSUSensor0_1inITSUChip0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip0_0inITSUModule0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule0_0inITSUHalfStave0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave0_0inITSUStave0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave0_0inITSULayer0pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer0_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor1_1inITSUChip1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip1_0inITSUModule1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule1_0inITSUHalfStave1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave1_0inITSUStave1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave1_0inITSULayer1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer1_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor2_1inITSUChip2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip2_0inITSUModule2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule2_0inITSUHalfStave2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave2_0inITSUStave2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave2_0inITSULayer2pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer2_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor3_1inITSUChip3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip3_0inITSUModule3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule3_0inITSUHalfStave3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave3_0inITSUStave3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave3_0inITSULayer3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer3_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor4_1inITSUChip4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip4_0inITSUModule4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule4_0inITSUHalfStave4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave4_0inITSUStave4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave4_0inITSULayer4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer4_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor5_1inITSUChip5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip5_0inITSUModule5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule5_0inITSUHalfStave5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave5_0inITSUStave5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave5_0inITSULayer5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer5_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor6_1inITSUChip6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip6_0inITSUModule6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule6_0inITSUHalfStave6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave6_0inITSUStave6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave6_0inITSULayer6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer6_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor7_1inITSUChip7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip7_0inITSUModule7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule7_0inITSUHalfStave7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave7_0inITSUStave7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave7_0inITSULayer7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer7_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor8_1inITSUChip8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip8_0inITSUModule8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule8_0inITSUHalfStave8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave8_0inITSUStave8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave8_0inITSULayer8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer8_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor9_1inITSUChip9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip9_0inITSUModule9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule9_0inITSUHalfStave9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave9_0inITSUStave9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave9_0inITSULayer9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer9_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor10_1inITSUChip10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip10_0inITSUModule10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule10_0inITSUHalfStave10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave10_0inITSUStave10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave10_0inITSULayer10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer10_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUSensor11_1inITSUChip11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUChip11_0inITSUModule11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUModule11_0inITSUHalfStave11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUHalfStave11_0inITSUStave11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSUStave11_0inITSULayer11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSULayer11_1inITSVpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITSV_2inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="FT3Sensor_0_3_1inFT3Chip3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip3_1inFT3Layer0_3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_3_1inFT3Vpos" x="0" y="0" z="-77" unit="cm"/>
+    <rotation name="FT3Layer0_3_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_4_1inFT3Chip4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip4_1inFT3Layer0_4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_4_1inFT3Vpos" x="0" y="0" z="-100" unit="cm"/>
+    <rotation name="FT3Layer0_4_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_5_1inFT3Chip5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip5_1inFT3Layer0_5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_5_1inFT3Vpos" x="0" y="0" z="-122" unit="cm"/>
+    <rotation name="FT3Layer0_5_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_6_1inFT3Chip6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip6_1inFT3Layer0_6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_6_1inFT3Vpos" x="0" y="0" z="-150" unit="cm"/>
+    <rotation name="FT3Layer0_6_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_7_1inFT3Chip7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip7_1inFT3Layer0_7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_7_1inFT3Vpos" x="0" y="0" z="-180" unit="cm"/>
+    <rotation name="FT3Layer0_7_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_8_1inFT3Chip8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip8_1inFT3Layer0_8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_8_1inFT3Vpos" x="0" y="0" z="-220" unit="cm"/>
+    <rotation name="FT3Layer0_8_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_9_1inFT3Chip9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip9_1inFT3Layer0_9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_9_1inFT3Vpos" x="0" y="0" z="-279" unit="cm"/>
+    <rotation name="FT3Layer0_9_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_10_1inFT3Chip10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip10_1inFT3Layer0_10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_10_1inFT3Vpos" x="0" y="0" z="-340" unit="cm"/>
+    <rotation name="FT3Layer0_10_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_0_11_1inFT3Chip11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip11_1inFT3Layer0_11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer0_11_1inFT3Vpos" x="0" y="0" z="-400" unit="cm"/>
+    <rotation name="FT3Layer0_11_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_3_1inFT3Chip30x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip3_10x1inFT3Layer1_3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_3_1inFT3Vpos" x="0" y="0" z="77" unit="cm"/>
+    <rotation name="FT3Layer1_3_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_4_1inFT3Chip40x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip4_10x1inFT3Layer1_4pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_4_1inFT3Vpos" x="0" y="0" z="100" unit="cm"/>
+    <rotation name="FT3Layer1_4_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_5_1inFT3Chip50x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip5_10x1inFT3Layer1_5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_5_1inFT3Vpos" x="0" y="0" z="122" unit="cm"/>
+    <rotation name="FT3Layer1_5_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_6_1inFT3Chip60x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip6_10x1inFT3Layer1_6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_6_1inFT3Vpos" x="0" y="0" z="150" unit="cm"/>
+    <rotation name="FT3Layer1_6_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_7_1inFT3Chip70x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip7_10x1inFT3Layer1_7pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_7_1inFT3Vpos" x="0" y="0" z="180" unit="cm"/>
+    <rotation name="FT3Layer1_7_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_8_1inFT3Chip80x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip8_10x1inFT3Layer1_8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_8_1inFT3Vpos" x="0" y="0" z="220" unit="cm"/>
+    <rotation name="FT3Layer1_8_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_9_1inFT3Chip90x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip9_10x1inFT3Layer1_9pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_9_1inFT3Vpos" x="0" y="0" z="279" unit="cm"/>
+    <rotation name="FT3Layer1_9_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_10_1inFT3Chip100x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip10_10x1inFT3Layer1_10pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_10_1inFT3Vpos" x="0" y="0" z="340" unit="cm"/>
+    <rotation name="FT3Layer1_10_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3Sensor_1_11_1inFT3Chip110x1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Chip11_10x1inFT3Layer1_11pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FT3Layer1_11_1inFT3Vpos" x="0" y="0" z="400" unit="cm"/>
+    <rotation name="FT3Layer1_11_1inFT3Vrot" x="-0" y="-0" z="-180" unit="deg"/>
+    <position name="FT3V_2inbarrelpos" x="0" y="30" z="0" unit="cm"/>
+    <position name="barrel_1incavepos" x="0" y="-30" z="0" unit="cm"/>
+    <position name="caveRB24_1incavepos" x="0" y="0" z="1312.5" unit="cm"/>
+  </define>
+  <materials>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.006740000000001"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="CAVE_Air">
+      <D unit="g/cm3" value="0.0011406296398490667"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="CAVE_Air_NF">
+      <D unit="g/cm3" value="0.0011406296398490667"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ALICE3PIPE_BERILLIUM" Z="4">
+      <D unit="g/cm3" value="1.8480000495910645"/>
+      <atom unit="g/mole" value="9.0100002288818359"/>
+    </material>
+    <material name="ALICE3PIPE_VACUUM">
+      <D unit="g/cm3" value="1.2047900004030776e-11"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ALICE3PIPE_VACUUM_NF">
+      <D unit="g/cm3" value="1.2047900004030776e-11"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ALICE3PIPE_VACUUM_HC">
+      <D unit="g/cm3" value="1.2047900004030776e-11"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ALICE3PIPE_VACUUM_NFHC">
+      <D unit="g/cm3" value="1.2047900004030776e-11"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRK_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <material name="TRK_WATER">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11189399659633636" ref="HYDROGEN_elm"/>
+      <fraction n="0.88810598850250244" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRK_SI" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="TRK_BERILLIUM" Z="4">
+      <D unit="g/cm3" value="1.8480000495910645"/>
+      <atom unit="g/mole" value="9.0100002288818359"/>
+    </material>
+    <material name="TRK_COPPER" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="TRK_CARBON" Z="6">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_KAPTONPOLYCH2">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <element name="SILICON_elm" formula="SI" Z="14">
+      <atom unit="g/mole" value="28.0855"/>
+    </element>
+    <material name="TRK_METALSTACK">
+      <D unit="g/cm3" value="2.2799999713897705"/>
+      <fraction n="0.17000000178813934" ref="ALUMINIUM_elm"/>
+      <fraction n="0.44200000166893005" ref="OXYGEN_elm"/>
+      <fraction n="0.3880000114440918" ref="SILICON_elm"/>
+    </material>
+    <material name="TRK_GLUE_IBFPC" Z="6">
+      <D unit="g/cm3" value="0.31499999761581421"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <element name="BARIUM_elm" formula="BA" Z="56">
+      <atom unit="g/mole" value="137.327"/>
+    </element>
+    <element name="TITANIUM_elm" formula="TI" Z="22">
+      <atom unit="g/mole" value="47.866999999999997"/>
+    </element>
+    <material name="TRK_CERAMIC">
+      <D unit="g/cm3" value="6.0199999809265137"/>
+      <fraction n="0.58890348672866821" ref="BARIUM_elm"/>
+      <fraction n="0.20582698285579681" ref="OXYGEN_elm"/>
+      <fraction n="0.20526950061321259" ref="TITANIUM_elm"/>
+    </material>
+    <material name="TRK_K13D2U2k" Z="6">
+      <D unit="g/cm3" value="1.6430000066757202"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_K13D2U120" Z="6">
+      <D unit="g/cm3" value="1.5829999446868896"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_F6151B05M" Z="6">
+      <D unit="g/cm3" value="2.1329998970031738"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_M60J3K" Z="6">
+      <D unit="g/cm3" value="2.2100000381469727"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_M55J6K" Z="6">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_T300" Z="6">
+      <D unit="g/cm3" value="1.7250000238418579"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_FGS003" Z="6">
+      <D unit="g/cm3" value="1.6000000238418579"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_CarbonFleece" Z="6">
+      <D unit="g/cm3" value="0.40000000596046448"/>
+      <atom unit="g/mole" value="12.010700225830078"/>
+    </material>
+    <material name="TRK_ROHACELL">
+      <D unit="g/cm3" value="0.05000000074505806"/>
+      <fraction n="0.64635533094406128" ref="CARBON_elm"/>
+      <fraction n="0.078514620661735535" ref="HYDROGEN_elm"/>
+      <fraction n="0.08377683162689209" ref="NITROGEN_elm"/>
+      <fraction n="0.1913532167673111" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRK_PEEKCF30">
+      <D unit="g/cm3" value="1.3200000524520874"/>
+      <fraction n="0.79155689477920532" ref="CARBON_elm"/>
+      <fraction n="0.041954267770051956" ref="HYDROGEN_elm"/>
+      <fraction n="0.16648885607719421" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRK_FLEXCABLE">
+      <D unit="g/cm3" value="2.5950000286102295"/>
+      <fraction n="0.24753600358963013" ref="ALUMINIUM_elm"/>
+      <fraction n="0.520088791847229" ref="CARBON_elm"/>
+      <fraction n="0.019838713109493256" ref="HYDROGEN_elm"/>
+      <fraction n="0.055136799812316895" ref="NITROGEN_elm"/>
+      <fraction n="0.15739966928958893" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRK_GLUE" Z="6">
+      <D unit="g/cm3" value="0.95781636238098145"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="TRK_ALUMINUM" Z="13">
+      <D unit="g/cm3" value="2.6988999843597412"/>
+      <atom unit="g/mole" value="26.982000350952148"/>
+    </material>
+    <element name="TUNGSTEN_elm" formula="W" Z="74">
+      <atom unit="g/mole" value="183.84"/>
+    </element>
+    <material name="TRK_TUNGCARB">
+      <D unit="g/cm3" value="15.630000114440918"/>
+      <fraction n="0.5" ref="CARBON_elm"/>
+      <fraction n="0.5" ref="TUNGSTEN_elm"/>
+    </material>
+    <element name="CHROMIUM_elm" formula="CR" Z="24">
+      <atom unit="g/mole" value="51.996099999999998"/>
+    </element>
+    <element name="NICKEL_elm" formula="NI" Z="28">
+      <atom unit="g/mole" value="58.693399999999997"/>
+    </element>
+    <element name="IRON_elm" formula="FE" Z="26">
+      <atom unit="g/mole" value="55.844999999999999"/>
+    </element>
+    <material name="TRK_INOX304">
+      <D unit="g/cm3" value="7.8499999046325684"/>
+      <fraction n="0.00030000001424923539" ref="CARBON_elm"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.71969997882843018" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+    </material>
+    <material name="TRK_TUNGSTEN" Z="74">
+      <D unit="g/cm3" value="19.25"/>
+      <atom unit="g/mole" value="183.83999633789062"/>
+    </material>
+    <material name="FT3_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="FT3_SI" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="world" x="30000" y="30000" z="30000" lunit="cm"/>
+    <box name="cave" x="4000" y="4000" z="6000" lunit="cm"/>
+    <polyhedra name="shCaveTR1" startphi="22.5" deltaphi="360" numsides="8" aunit="deg" lunit="cm">
+      <zplane z="-714.60000000000002" rmin="0" rmax="790.5"/>
+      <zplane z="714.60000000000002" rmin="0" rmax="790.5"/>
+    </polyhedra>
+    <tube name="shCaveTR2" rmin="0" rmax="150" z="220" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="shCaveTR">
+      <first ref="shCaveTR1"/>
+      <second ref="shCaveTR2"/>
+      <position name="shCaveTRshCaveTR2pos" x="0" y="30" z="-615" unit="cm"/>
+    </subtraction>
+    <tube name="TRKLAYER_0sh" rmin="0.5" rmax="0.50499999523162842" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TRKLAYER_1sh" rmin="1.2000000476837158" rmax="1.2050000429153442" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x1">
+      <first ref="TRKLAYER_0sh"/>
+      <second ref="TRKLAYER_1sh"/>
+    </union>
+    <tube name="TRKLAYER_2sh" rmin="2.5" rmax="2.505000114440918" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OUT_PIPEVACUUM_BASEsh" rmin="0.49499997496604919" rmax="3.7000000476837158" z="2000" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape">
+      <first ref="TGeoCompositeShape0x1"/>
+      <second ref="TRKLAYER_2sh"/>
+    </union>
+    <subtraction name="OUT_PIPEVACUUMsh">
+      <first ref="OUT_PIPEVACUUM_BASEsh"/>
+      <second ref="TGeoCompositeShape"/>
+    </subtraction>
+    <tube name="TGeoTube" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x1" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x2" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x3" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x4" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x5" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x6" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x7" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x8" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x9" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x10" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x11" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x12" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x13" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x14" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x15" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x16" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x17" rmin="0.5" rmax="3" z="0.0095000004512257874" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OUT_PIPEsh" rmin="3.7000000476837158" rmax="3.75" z="2000" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="INN_PIPEsh" rmin="0.47999998927116394" rmax="0.49499997496604919" z="2000" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="INN_PIPEVACUUMsh" rmin="0" rmax="0.47999998927116394" z="2000" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x18" rmin="0.5" rmax="0.50999999977648258" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x19" rmin="0.5" rmax="0.50999999977648258" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x20" rmin="0.5" rmax="0.50999999977648258" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x21" rmin="0.5" rmax="0.50999999977648258" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x22" rmin="0.5" rmax="0.50999999977648258" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x23" rmin="1.2000000476837158" rmax="1.2100000474601984" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x24" rmin="1.2000000476837158" rmax="1.2100000474601984" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x25" rmin="1.2000000476837158" rmax="1.2100000474601984" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x26" rmin="1.2000000476837158" rmax="1.2100000474601984" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x27" rmin="1.2000000476837158" rmax="1.2100000474601984" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x28" rmin="2.5" rmax="2.5099999997764826" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x29" rmin="2.5" rmax="2.5099999997764826" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x30" rmin="2.5" rmax="2.5099999997764826" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x31" rmin="2.5" rmax="2.5099999997764826" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x32" rmin="2.5" rmax="2.5099999997764826" z="50" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x33" rmin="3.75" rmax="3.7599999997764826" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x34" rmin="3.75" rmax="3.7599999997764826" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x35" rmin="3.75" rmax="3.7599999997764826" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x36" rmin="3.75" rmax="3.7599999997764826" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x37" rmin="3.75" rmax="3.7599999997764826" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x38" rmin="7" rmax="7.1000000014901161" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x39" rmin="7" rmax="7.1000000014901161" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x40" rmin="7" rmax="7.1000000014901161" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x41" rmin="7" rmax="7.1000000014901161" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x42" rmin="7" rmax="7.1000000014901161" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x43" rmin="12" rmax="12.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x44" rmin="12" rmax="12.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x45" rmin="12" rmax="12.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x46" rmin="12" rmax="12.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x47" rmin="12" rmax="12.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x48" rmin="20" rmax="20.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x49" rmin="20" rmax="20.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x50" rmin="20" rmax="20.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x51" rmin="20" rmax="20.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x52" rmin="20" rmax="20.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x53" rmin="30" rmax="30.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x54" rmin="30" rmax="30.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x55" rmin="30" rmax="30.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x56" rmin="30" rmax="30.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x57" rmin="30" rmax="30.100000001490116" z="124" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x58" rmin="45" rmax="45.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x59" rmin="45" rmax="45.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x60" rmin="45" rmax="45.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x61" rmin="45" rmax="45.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x62" rmin="45" rmax="45.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x63" rmin="60" rmax="60.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x64" rmin="60" rmax="60.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x65" rmin="60" rmax="60.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x66" rmin="60" rmax="60.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x67" rmin="60" rmax="60.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x68" rmin="80" rmax="80.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x69" rmin="80" rmax="80.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x70" rmin="80" rmax="80.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x71" rmin="80" rmax="80.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x72" rmin="80" rmax="80.100000001490116" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x73" rmin="100" rmax="100.10000000149012" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x74" rmin="100" rmax="100.10000000149012" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x75" rmin="100" rmax="100.10000000149012" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x76" rmin="100" rmax="100.10000000149012" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x77" rmin="100" rmax="100.10000000149012" z="264" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x78" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x79" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x80" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x81" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x82" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x83" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x84" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x85" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x86" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x87" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x88" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x89" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x90" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x91" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x92" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x93" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x94" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x95" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x96" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x97" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x98" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x99" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x100" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x101" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x102" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x103" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x104" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x105" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x106" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x107" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x108" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x109" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x110" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x111" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x112" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x113" rmin="5" rmax="35" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x114" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x115" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x116" rmin="5.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x117" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x118" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x119" rmin="6.5999999046325684" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x120" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x121" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x122" rmin="8.1000003814697266" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x123" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x124" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x125" rmin="10.199999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x126" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x127" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x128" rmin="12.5" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x129" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x130" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x131" rmin="14.699999809265137" rmax="100" z="0.09499999787658453" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <polycone name="TGeoPcon" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-597.9000244140625" rmin="0" rmax="105"/>
+      <zplane z="392.5" rmin="0" rmax="105"/>
+      <zplane z="392.5" rmin="0" rmax="14.5"/>
+      <zplane z="567.5" rmin="0" rmax="14.5"/>
+      <zplane z="567.5" rmin="0" rmax="40"/>
+      <zplane z="597.9000244140625" rmin="0" rmax="40"/>
+    </polycone>
+  </solids>
+  <structure>
+    <volume name="FT3Sensor_0_0">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x2"/>
+    </volume>
+    <volume name="FT3Chip0">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x1"/>
+      <physvol name="FT3Sensor_0_0_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_0"/>
+        <positionref ref="FT3Sensor_0_0_1inFT3Chip0pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_0">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube"/>
+      <physvol name="FT3Chip0_1" copynumber="1">
+        <volumeref ref="FT3Chip0"/>
+        <positionref ref="FT3Chip0_1inFT3Layer0_0pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x5"/>
+    </volume>
+    <volume name="FT3Chip1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x4"/>
+      <physvol name="FT3Sensor_0_1_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_1"/>
+        <positionref ref="FT3Sensor_0_1_1inFT3Chip1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_1">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x3"/>
+      <physvol name="FT3Chip1_1" copynumber="1">
+        <volumeref ref="FT3Chip1"/>
+        <positionref ref="FT3Chip1_1inFT3Layer0_1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_2">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x8"/>
+    </volume>
+    <volume name="FT3Chip2">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x7"/>
+      <physvol name="FT3Sensor_0_2_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_2"/>
+        <positionref ref="FT3Sensor_0_2_1inFT3Chip2pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_2">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x6"/>
+      <physvol name="FT3Chip2_1" copynumber="1">
+        <volumeref ref="FT3Chip2"/>
+        <positionref ref="FT3Chip2_1inFT3Layer0_2pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_0">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x11"/>
+    </volume>
+    <volume name="FT3Chip00x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x10"/>
+      <physvol name="FT3Sensor_1_0_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_0"/>
+        <positionref ref="FT3Sensor_1_0_1inFT3Chip00x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_0">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x9"/>
+      <physvol name="FT3Chip0_1" copynumber="1">
+        <volumeref ref="FT3Chip00x1"/>
+        <positionref ref="FT3Chip0_10x1inFT3Layer1_0pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x14"/>
+    </volume>
+    <volume name="FT3Chip10x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x13"/>
+      <physvol name="FT3Sensor_1_1_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_1"/>
+        <positionref ref="FT3Sensor_1_1_1inFT3Chip10x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_1">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x12"/>
+      <physvol name="FT3Chip1_1" copynumber="1">
+        <volumeref ref="FT3Chip10x1"/>
+        <positionref ref="FT3Chip1_10x1inFT3Layer1_1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_2">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x17"/>
+    </volume>
+    <volume name="FT3Chip20x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x16"/>
+      <physvol name="FT3Sensor_1_2_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_2"/>
+        <positionref ref="FT3Sensor_1_2_1inFT3Chip20x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_2">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x15"/>
+      <physvol name="FT3Chip2_1" copynumber="1">
+        <volumeref ref="FT3Chip20x1"/>
+        <positionref ref="FT3Chip2_10x1inFT3Layer1_2pos"/>
+      </physvol>
+    </volume>
+    <assembly name="FT3Inner">
+      <physvol name="FT3Layer0_0_1" copynumber="1">
+        <volumeref ref="FT3Layer0_0"/>
+        <positionref ref="FT3Layer0_0_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer0_0_1inFT3Innerrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_1_1" copynumber="1">
+        <volumeref ref="FT3Layer0_1"/>
+        <positionref ref="FT3Layer0_1_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer0_1_1inFT3Innerrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_2_1" copynumber="1">
+        <volumeref ref="FT3Layer0_2"/>
+        <positionref ref="FT3Layer0_2_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer0_2_1inFT3Innerrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_0_1" copynumber="1">
+        <volumeref ref="FT3Layer1_0"/>
+        <positionref ref="FT3Layer1_0_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer1_0_1inFT3Innerrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_1_1" copynumber="1">
+        <volumeref ref="FT3Layer1_1"/>
+        <positionref ref="FT3Layer1_1_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer1_1_1inFT3Innerrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_2_1" copynumber="1">
+        <volumeref ref="FT3Layer1_2"/>
+        <positionref ref="FT3Layer1_2_1inFT3Innerpos"/>
+        <rotationref ref="FT3Layer1_2_1inFT3Innerrot"/>
+      </physvol>
+    </assembly>
+    <volume name="OUT_PIPEVACUUM">
+      <materialref ref="ALICE3PIPE_VACUUM"/>
+      <solidref ref="OUT_PIPEVACUUMsh"/>
+      <physvol name="FT3Inner_2" copynumber="2">
+        <volumeref ref="FT3Inner"/>
+        <positionref ref="FT3Inner_2inOUT_PIPEVACUUMpos"/>
+      </physvol>
+    </volume>
+    <volume name="OUT_PIPE">
+      <materialref ref="ALICE3PIPE_BERILLIUM"/>
+      <solidref ref="OUT_PIPEsh"/>
+    </volume>
+    <volume name="INN_PIPE">
+      <materialref ref="ALICE3PIPE_BERILLIUM"/>
+      <solidref ref="INN_PIPEsh"/>
+    </volume>
+    <volume name="INN_PIPEVACUUM">
+      <materialref ref="ALICE3PIPE_VACUUM"/>
+      <solidref ref="INN_PIPEVACUUMsh"/>
+    </volume>
+    <volume name="ITSUSensor0">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x22"/>
+    </volume>
+    <volume name="ITSUChip0">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x21"/>
+      <physvol name="ITSUSensor0_1" copynumber="1">
+        <volumeref ref="ITSUSensor0"/>
+        <positionref ref="ITSUSensor0_1inITSUChip0pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule0">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x20"/>
+      <physvol name="ITSUChip0_0" copynumber="0">
+        <volumeref ref="ITSUChip0"/>
+        <positionref ref="ITSUChip0_0inITSUModule0pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave0">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x20"/>
+      <physvol name="ITSUModule0_0" copynumber="0">
+        <volumeref ref="ITSUModule0"/>
+        <positionref ref="ITSUModule0_0inITSUHalfStave0pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave0">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x19"/>
+      <physvol name="ITSUHalfStave0_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave0"/>
+        <positionref ref="ITSUHalfStave0_0inITSUStave0pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer0">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x18"/>
+      <physvol name="ITSUStave0_0" copynumber="0">
+        <volumeref ref="ITSUStave0"/>
+        <positionref ref="ITSUStave0_0inITSULayer0pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor1">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x27"/>
+    </volume>
+    <volume name="ITSUChip1">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x26"/>
+      <physvol name="ITSUSensor1_1" copynumber="1">
+        <volumeref ref="ITSUSensor1"/>
+        <positionref ref="ITSUSensor1_1inITSUChip1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule1">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x25"/>
+      <physvol name="ITSUChip1_0" copynumber="0">
+        <volumeref ref="ITSUChip1"/>
+        <positionref ref="ITSUChip1_0inITSUModule1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave1">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x25"/>
+      <physvol name="ITSUModule1_0" copynumber="0">
+        <volumeref ref="ITSUModule1"/>
+        <positionref ref="ITSUModule1_0inITSUHalfStave1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave1">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x24"/>
+      <physvol name="ITSUHalfStave1_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave1"/>
+        <positionref ref="ITSUHalfStave1_0inITSUStave1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer1">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x23"/>
+      <physvol name="ITSUStave1_0" copynumber="0">
+        <volumeref ref="ITSUStave1"/>
+        <positionref ref="ITSUStave1_0inITSULayer1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor2">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x32"/>
+    </volume>
+    <volume name="ITSUChip2">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x31"/>
+      <physvol name="ITSUSensor2_1" copynumber="1">
+        <volumeref ref="ITSUSensor2"/>
+        <positionref ref="ITSUSensor2_1inITSUChip2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule2">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x30"/>
+      <physvol name="ITSUChip2_0" copynumber="0">
+        <volumeref ref="ITSUChip2"/>
+        <positionref ref="ITSUChip2_0inITSUModule2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave2">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x30"/>
+      <physvol name="ITSUModule2_0" copynumber="0">
+        <volumeref ref="ITSUModule2"/>
+        <positionref ref="ITSUModule2_0inITSUHalfStave2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave2">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x29"/>
+      <physvol name="ITSUHalfStave2_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave2"/>
+        <positionref ref="ITSUHalfStave2_0inITSUStave2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer2">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x28"/>
+      <physvol name="ITSUStave2_0" copynumber="0">
+        <volumeref ref="ITSUStave2"/>
+        <positionref ref="ITSUStave2_0inITSULayer2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor3">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x37"/>
+    </volume>
+    <volume name="ITSUChip3">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x36"/>
+      <physvol name="ITSUSensor3_1" copynumber="1">
+        <volumeref ref="ITSUSensor3"/>
+        <positionref ref="ITSUSensor3_1inITSUChip3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule3">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x35"/>
+      <physvol name="ITSUChip3_0" copynumber="0">
+        <volumeref ref="ITSUChip3"/>
+        <positionref ref="ITSUChip3_0inITSUModule3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave3">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x35"/>
+      <physvol name="ITSUModule3_0" copynumber="0">
+        <volumeref ref="ITSUModule3"/>
+        <positionref ref="ITSUModule3_0inITSUHalfStave3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave3">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x34"/>
+      <physvol name="ITSUHalfStave3_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave3"/>
+        <positionref ref="ITSUHalfStave3_0inITSUStave3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer3">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x33"/>
+      <physvol name="ITSUStave3_0" copynumber="0">
+        <volumeref ref="ITSUStave3"/>
+        <positionref ref="ITSUStave3_0inITSULayer3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor4">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x42"/>
+    </volume>
+    <volume name="ITSUChip4">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x41"/>
+      <physvol name="ITSUSensor4_1" copynumber="1">
+        <volumeref ref="ITSUSensor4"/>
+        <positionref ref="ITSUSensor4_1inITSUChip4pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule4">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x40"/>
+      <physvol name="ITSUChip4_0" copynumber="0">
+        <volumeref ref="ITSUChip4"/>
+        <positionref ref="ITSUChip4_0inITSUModule4pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave4">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x40"/>
+      <physvol name="ITSUModule4_0" copynumber="0">
+        <volumeref ref="ITSUModule4"/>
+        <positionref ref="ITSUModule4_0inITSUHalfStave4pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave4">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x39"/>
+      <physvol name="ITSUHalfStave4_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave4"/>
+        <positionref ref="ITSUHalfStave4_0inITSUStave4pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer4">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x38"/>
+      <physvol name="ITSUStave4_0" copynumber="0">
+        <volumeref ref="ITSUStave4"/>
+        <positionref ref="ITSUStave4_0inITSULayer4pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor5">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x47"/>
+    </volume>
+    <volume name="ITSUChip5">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x46"/>
+      <physvol name="ITSUSensor5_1" copynumber="1">
+        <volumeref ref="ITSUSensor5"/>
+        <positionref ref="ITSUSensor5_1inITSUChip5pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule5">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x45"/>
+      <physvol name="ITSUChip5_0" copynumber="0">
+        <volumeref ref="ITSUChip5"/>
+        <positionref ref="ITSUChip5_0inITSUModule5pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave5">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x45"/>
+      <physvol name="ITSUModule5_0" copynumber="0">
+        <volumeref ref="ITSUModule5"/>
+        <positionref ref="ITSUModule5_0inITSUHalfStave5pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave5">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x44"/>
+      <physvol name="ITSUHalfStave5_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave5"/>
+        <positionref ref="ITSUHalfStave5_0inITSUStave5pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer5">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x43"/>
+      <physvol name="ITSUStave5_0" copynumber="0">
+        <volumeref ref="ITSUStave5"/>
+        <positionref ref="ITSUStave5_0inITSULayer5pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor6">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x52"/>
+    </volume>
+    <volume name="ITSUChip6">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x51"/>
+      <physvol name="ITSUSensor6_1" copynumber="1">
+        <volumeref ref="ITSUSensor6"/>
+        <positionref ref="ITSUSensor6_1inITSUChip6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule6">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x50"/>
+      <physvol name="ITSUChip6_0" copynumber="0">
+        <volumeref ref="ITSUChip6"/>
+        <positionref ref="ITSUChip6_0inITSUModule6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave6">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x50"/>
+      <physvol name="ITSUModule6_0" copynumber="0">
+        <volumeref ref="ITSUModule6"/>
+        <positionref ref="ITSUModule6_0inITSUHalfStave6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave6">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x49"/>
+      <physvol name="ITSUHalfStave6_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave6"/>
+        <positionref ref="ITSUHalfStave6_0inITSUStave6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer6">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x48"/>
+      <physvol name="ITSUStave6_0" copynumber="0">
+        <volumeref ref="ITSUStave6"/>
+        <positionref ref="ITSUStave6_0inITSULayer6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor7">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x57"/>
+    </volume>
+    <volume name="ITSUChip7">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x56"/>
+      <physvol name="ITSUSensor7_1" copynumber="1">
+        <volumeref ref="ITSUSensor7"/>
+        <positionref ref="ITSUSensor7_1inITSUChip7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule7">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x55"/>
+      <physvol name="ITSUChip7_0" copynumber="0">
+        <volumeref ref="ITSUChip7"/>
+        <positionref ref="ITSUChip7_0inITSUModule7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave7">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x55"/>
+      <physvol name="ITSUModule7_0" copynumber="0">
+        <volumeref ref="ITSUModule7"/>
+        <positionref ref="ITSUModule7_0inITSUHalfStave7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave7">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x54"/>
+      <physvol name="ITSUHalfStave7_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave7"/>
+        <positionref ref="ITSUHalfStave7_0inITSUStave7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer7">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x53"/>
+      <physvol name="ITSUStave7_0" copynumber="0">
+        <volumeref ref="ITSUStave7"/>
+        <positionref ref="ITSUStave7_0inITSULayer7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor8">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x62"/>
+    </volume>
+    <volume name="ITSUChip8">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x61"/>
+      <physvol name="ITSUSensor8_1" copynumber="1">
+        <volumeref ref="ITSUSensor8"/>
+        <positionref ref="ITSUSensor8_1inITSUChip8pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule8">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x60"/>
+      <physvol name="ITSUChip8_0" copynumber="0">
+        <volumeref ref="ITSUChip8"/>
+        <positionref ref="ITSUChip8_0inITSUModule8pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave8">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x60"/>
+      <physvol name="ITSUModule8_0" copynumber="0">
+        <volumeref ref="ITSUModule8"/>
+        <positionref ref="ITSUModule8_0inITSUHalfStave8pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave8">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x59"/>
+      <physvol name="ITSUHalfStave8_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave8"/>
+        <positionref ref="ITSUHalfStave8_0inITSUStave8pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer8">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x58"/>
+      <physvol name="ITSUStave8_0" copynumber="0">
+        <volumeref ref="ITSUStave8"/>
+        <positionref ref="ITSUStave8_0inITSULayer8pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor9">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x67"/>
+    </volume>
+    <volume name="ITSUChip9">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x66"/>
+      <physvol name="ITSUSensor9_1" copynumber="1">
+        <volumeref ref="ITSUSensor9"/>
+        <positionref ref="ITSUSensor9_1inITSUChip9pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule9">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x65"/>
+      <physvol name="ITSUChip9_0" copynumber="0">
+        <volumeref ref="ITSUChip9"/>
+        <positionref ref="ITSUChip9_0inITSUModule9pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave9">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x65"/>
+      <physvol name="ITSUModule9_0" copynumber="0">
+        <volumeref ref="ITSUModule9"/>
+        <positionref ref="ITSUModule9_0inITSUHalfStave9pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave9">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x64"/>
+      <physvol name="ITSUHalfStave9_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave9"/>
+        <positionref ref="ITSUHalfStave9_0inITSUStave9pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer9">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x63"/>
+      <physvol name="ITSUStave9_0" copynumber="0">
+        <volumeref ref="ITSUStave9"/>
+        <positionref ref="ITSUStave9_0inITSULayer9pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor10">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x72"/>
+    </volume>
+    <volume name="ITSUChip10">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x71"/>
+      <physvol name="ITSUSensor10_1" copynumber="1">
+        <volumeref ref="ITSUSensor10"/>
+        <positionref ref="ITSUSensor10_1inITSUChip10pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule10">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x70"/>
+      <physvol name="ITSUChip10_0" copynumber="0">
+        <volumeref ref="ITSUChip10"/>
+        <positionref ref="ITSUChip10_0inITSUModule10pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave10">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x70"/>
+      <physvol name="ITSUModule10_0" copynumber="0">
+        <volumeref ref="ITSUModule10"/>
+        <positionref ref="ITSUModule10_0inITSUHalfStave10pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave10">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x69"/>
+      <physvol name="ITSUHalfStave10_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave10"/>
+        <positionref ref="ITSUHalfStave10_0inITSUStave10pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer10">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x68"/>
+      <physvol name="ITSUStave10_0" copynumber="0">
+        <volumeref ref="ITSUStave10"/>
+        <positionref ref="ITSUStave10_0inITSULayer10pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUSensor11">
+      <materialref ref="TRK_SI"/>
+      <solidref ref="TGeoTube0x77"/>
+    </volume>
+    <volume name="ITSUChip11">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x76"/>
+      <physvol name="ITSUSensor11_1" copynumber="1">
+        <volumeref ref="ITSUSensor11"/>
+        <positionref ref="ITSUSensor11_1inITSUChip11pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUModule11">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x75"/>
+      <physvol name="ITSUChip11_0" copynumber="0">
+        <volumeref ref="ITSUChip11"/>
+        <positionref ref="ITSUChip11_0inITSUModule11pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUHalfStave11">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x75"/>
+      <physvol name="ITSUModule11_0" copynumber="0">
+        <volumeref ref="ITSUModule11"/>
+        <positionref ref="ITSUModule11_0inITSUHalfStave11pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSUStave11">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x74"/>
+      <physvol name="ITSUHalfStave11_0" copynumber="0">
+        <volumeref ref="ITSUHalfStave11"/>
+        <positionref ref="ITSUHalfStave11_0inITSUStave11pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSULayer11">
+      <materialref ref="TRK_AIR"/>
+      <solidref ref="TGeoTube0x73"/>
+      <physvol name="ITSUStave11_0" copynumber="0">
+        <volumeref ref="ITSUStave11"/>
+        <positionref ref="ITSUStave11_0inITSULayer11pos"/>
+      </physvol>
+    </volume>
+    <assembly name="ITSV">
+      <physvol name="ITSULayer0_1" copynumber="1">
+        <volumeref ref="ITSULayer0"/>
+        <positionref ref="ITSULayer0_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer1_1" copynumber="1">
+        <volumeref ref="ITSULayer1"/>
+        <positionref ref="ITSULayer1_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer2_1" copynumber="1">
+        <volumeref ref="ITSULayer2"/>
+        <positionref ref="ITSULayer2_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer3_1" copynumber="1">
+        <volumeref ref="ITSULayer3"/>
+        <positionref ref="ITSULayer3_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer4_1" copynumber="1">
+        <volumeref ref="ITSULayer4"/>
+        <positionref ref="ITSULayer4_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer5_1" copynumber="1">
+        <volumeref ref="ITSULayer5"/>
+        <positionref ref="ITSULayer5_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer6_1" copynumber="1">
+        <volumeref ref="ITSULayer6"/>
+        <positionref ref="ITSULayer6_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer7_1" copynumber="1">
+        <volumeref ref="ITSULayer7"/>
+        <positionref ref="ITSULayer7_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer8_1" copynumber="1">
+        <volumeref ref="ITSULayer8"/>
+        <positionref ref="ITSULayer8_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer9_1" copynumber="1">
+        <volumeref ref="ITSULayer9"/>
+        <positionref ref="ITSULayer9_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer10_1" copynumber="1">
+        <volumeref ref="ITSULayer10"/>
+        <positionref ref="ITSULayer10_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSULayer11_1" copynumber="1">
+        <volumeref ref="ITSULayer11"/>
+        <positionref ref="ITSULayer11_1inITSVpos"/>
+      </physvol>
+    </assembly>
+    <volume name="FT3Sensor_0_3">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x80"/>
+    </volume>
+    <volume name="FT3Chip3">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x79"/>
+      <physvol name="FT3Sensor_0_3_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_3"/>
+        <positionref ref="FT3Sensor_0_3_1inFT3Chip3pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_3">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x78"/>
+      <physvol name="FT3Chip3_1" copynumber="1">
+        <volumeref ref="FT3Chip3"/>
+        <positionref ref="FT3Chip3_1inFT3Layer0_3pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_4">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x83"/>
+    </volume>
+    <volume name="FT3Chip4">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x82"/>
+      <physvol name="FT3Sensor_0_4_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_4"/>
+        <positionref ref="FT3Sensor_0_4_1inFT3Chip4pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_4">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x81"/>
+      <physvol name="FT3Chip4_1" copynumber="1">
+        <volumeref ref="FT3Chip4"/>
+        <positionref ref="FT3Chip4_1inFT3Layer0_4pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_5">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x86"/>
+    </volume>
+    <volume name="FT3Chip5">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x85"/>
+      <physvol name="FT3Sensor_0_5_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_5"/>
+        <positionref ref="FT3Sensor_0_5_1inFT3Chip5pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_5">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x84"/>
+      <physvol name="FT3Chip5_1" copynumber="1">
+        <volumeref ref="FT3Chip5"/>
+        <positionref ref="FT3Chip5_1inFT3Layer0_5pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_6">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x89"/>
+    </volume>
+    <volume name="FT3Chip6">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x88"/>
+      <physvol name="FT3Sensor_0_6_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_6"/>
+        <positionref ref="FT3Sensor_0_6_1inFT3Chip6pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_6">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x87"/>
+      <physvol name="FT3Chip6_1" copynumber="1">
+        <volumeref ref="FT3Chip6"/>
+        <positionref ref="FT3Chip6_1inFT3Layer0_6pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_7">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x92"/>
+    </volume>
+    <volume name="FT3Chip7">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x91"/>
+      <physvol name="FT3Sensor_0_7_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_7"/>
+        <positionref ref="FT3Sensor_0_7_1inFT3Chip7pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_7">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x90"/>
+      <physvol name="FT3Chip7_1" copynumber="1">
+        <volumeref ref="FT3Chip7"/>
+        <positionref ref="FT3Chip7_1inFT3Layer0_7pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_8">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x95"/>
+    </volume>
+    <volume name="FT3Chip8">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x94"/>
+      <physvol name="FT3Sensor_0_8_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_8"/>
+        <positionref ref="FT3Sensor_0_8_1inFT3Chip8pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_8">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x93"/>
+      <physvol name="FT3Chip8_1" copynumber="1">
+        <volumeref ref="FT3Chip8"/>
+        <positionref ref="FT3Chip8_1inFT3Layer0_8pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_9">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x98"/>
+    </volume>
+    <volume name="FT3Chip9">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x97"/>
+      <physvol name="FT3Sensor_0_9_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_9"/>
+        <positionref ref="FT3Sensor_0_9_1inFT3Chip9pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_9">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x96"/>
+      <physvol name="FT3Chip9_1" copynumber="1">
+        <volumeref ref="FT3Chip9"/>
+        <positionref ref="FT3Chip9_1inFT3Layer0_9pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_10">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x101"/>
+    </volume>
+    <volume name="FT3Chip10">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x100"/>
+      <physvol name="FT3Sensor_0_10_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_10"/>
+        <positionref ref="FT3Sensor_0_10_1inFT3Chip10pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_10">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x99"/>
+      <physvol name="FT3Chip10_1" copynumber="1">
+        <volumeref ref="FT3Chip10"/>
+        <positionref ref="FT3Chip10_1inFT3Layer0_10pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_0_11">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x104"/>
+    </volume>
+    <volume name="FT3Chip11">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x103"/>
+      <physvol name="FT3Sensor_0_11_1" copynumber="1">
+        <volumeref ref="FT3Sensor_0_11"/>
+        <positionref ref="FT3Sensor_0_11_1inFT3Chip11pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer0_11">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x102"/>
+      <physvol name="FT3Chip11_1" copynumber="1">
+        <volumeref ref="FT3Chip11"/>
+        <positionref ref="FT3Chip11_1inFT3Layer0_11pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_3">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x107"/>
+    </volume>
+    <volume name="FT3Chip30x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x106"/>
+      <physvol name="FT3Sensor_1_3_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_3"/>
+        <positionref ref="FT3Sensor_1_3_1inFT3Chip30x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_3">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x105"/>
+      <physvol name="FT3Chip3_1" copynumber="1">
+        <volumeref ref="FT3Chip30x1"/>
+        <positionref ref="FT3Chip3_10x1inFT3Layer1_3pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_4">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x110"/>
+    </volume>
+    <volume name="FT3Chip40x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x109"/>
+      <physvol name="FT3Sensor_1_4_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_4"/>
+        <positionref ref="FT3Sensor_1_4_1inFT3Chip40x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_4">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x108"/>
+      <physvol name="FT3Chip4_1" copynumber="1">
+        <volumeref ref="FT3Chip40x1"/>
+        <positionref ref="FT3Chip4_10x1inFT3Layer1_4pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_5">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x113"/>
+    </volume>
+    <volume name="FT3Chip50x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x112"/>
+      <physvol name="FT3Sensor_1_5_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_5"/>
+        <positionref ref="FT3Sensor_1_5_1inFT3Chip50x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_5">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x111"/>
+      <physvol name="FT3Chip5_1" copynumber="1">
+        <volumeref ref="FT3Chip50x1"/>
+        <positionref ref="FT3Chip5_10x1inFT3Layer1_5pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_6">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x116"/>
+    </volume>
+    <volume name="FT3Chip60x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x115"/>
+      <physvol name="FT3Sensor_1_6_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_6"/>
+        <positionref ref="FT3Sensor_1_6_1inFT3Chip60x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_6">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x114"/>
+      <physvol name="FT3Chip6_1" copynumber="1">
+        <volumeref ref="FT3Chip60x1"/>
+        <positionref ref="FT3Chip6_10x1inFT3Layer1_6pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_7">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x119"/>
+    </volume>
+    <volume name="FT3Chip70x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x118"/>
+      <physvol name="FT3Sensor_1_7_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_7"/>
+        <positionref ref="FT3Sensor_1_7_1inFT3Chip70x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_7">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x117"/>
+      <physvol name="FT3Chip7_1" copynumber="1">
+        <volumeref ref="FT3Chip70x1"/>
+        <positionref ref="FT3Chip7_10x1inFT3Layer1_7pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_8">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x122"/>
+    </volume>
+    <volume name="FT3Chip80x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x121"/>
+      <physvol name="FT3Sensor_1_8_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_8"/>
+        <positionref ref="FT3Sensor_1_8_1inFT3Chip80x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_8">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x120"/>
+      <physvol name="FT3Chip8_1" copynumber="1">
+        <volumeref ref="FT3Chip80x1"/>
+        <positionref ref="FT3Chip8_10x1inFT3Layer1_8pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_9">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x125"/>
+    </volume>
+    <volume name="FT3Chip90x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x124"/>
+      <physvol name="FT3Sensor_1_9_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_9"/>
+        <positionref ref="FT3Sensor_1_9_1inFT3Chip90x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_9">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x123"/>
+      <physvol name="FT3Chip9_1" copynumber="1">
+        <volumeref ref="FT3Chip90x1"/>
+        <positionref ref="FT3Chip9_10x1inFT3Layer1_9pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_10">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x128"/>
+    </volume>
+    <volume name="FT3Chip100x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x127"/>
+      <physvol name="FT3Sensor_1_10_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_10"/>
+        <positionref ref="FT3Sensor_1_10_1inFT3Chip100x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_10">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x126"/>
+      <physvol name="FT3Chip10_1" copynumber="1">
+        <volumeref ref="FT3Chip100x1"/>
+        <positionref ref="FT3Chip10_10x1inFT3Layer1_10pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Sensor_1_11">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x131"/>
+    </volume>
+    <volume name="FT3Chip110x1">
+      <materialref ref="FT3_SI"/>
+      <solidref ref="TGeoTube0x130"/>
+      <physvol name="FT3Sensor_1_11_1" copynumber="1">
+        <volumeref ref="FT3Sensor_1_11"/>
+        <positionref ref="FT3Sensor_1_11_1inFT3Chip110x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="FT3Layer1_11">
+      <materialref ref="FT3_AIR"/>
+      <solidref ref="TGeoTube0x129"/>
+      <physvol name="FT3Chip11_1" copynumber="1">
+        <volumeref ref="FT3Chip110x1"/>
+        <positionref ref="FT3Chip11_10x1inFT3Layer1_11pos"/>
+      </physvol>
+    </volume>
+    <assembly name="FT3V">
+      <physvol name="FT3Layer0_3_1" copynumber="1">
+        <volumeref ref="FT3Layer0_3"/>
+        <positionref ref="FT3Layer0_3_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_3_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_4_1" copynumber="1">
+        <volumeref ref="FT3Layer0_4"/>
+        <positionref ref="FT3Layer0_4_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_4_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_5_1" copynumber="1">
+        <volumeref ref="FT3Layer0_5"/>
+        <positionref ref="FT3Layer0_5_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_5_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_6_1" copynumber="1">
+        <volumeref ref="FT3Layer0_6"/>
+        <positionref ref="FT3Layer0_6_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_6_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_7_1" copynumber="1">
+        <volumeref ref="FT3Layer0_7"/>
+        <positionref ref="FT3Layer0_7_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_7_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_8_1" copynumber="1">
+        <volumeref ref="FT3Layer0_8"/>
+        <positionref ref="FT3Layer0_8_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_8_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_9_1" copynumber="1">
+        <volumeref ref="FT3Layer0_9"/>
+        <positionref ref="FT3Layer0_9_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_9_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_10_1" copynumber="1">
+        <volumeref ref="FT3Layer0_10"/>
+        <positionref ref="FT3Layer0_10_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_10_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer0_11_1" copynumber="1">
+        <volumeref ref="FT3Layer0_11"/>
+        <positionref ref="FT3Layer0_11_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer0_11_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_3_1" copynumber="1">
+        <volumeref ref="FT3Layer1_3"/>
+        <positionref ref="FT3Layer1_3_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_3_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_4_1" copynumber="1">
+        <volumeref ref="FT3Layer1_4"/>
+        <positionref ref="FT3Layer1_4_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_4_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_5_1" copynumber="1">
+        <volumeref ref="FT3Layer1_5"/>
+        <positionref ref="FT3Layer1_5_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_5_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_6_1" copynumber="1">
+        <volumeref ref="FT3Layer1_6"/>
+        <positionref ref="FT3Layer1_6_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_6_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_7_1" copynumber="1">
+        <volumeref ref="FT3Layer1_7"/>
+        <positionref ref="FT3Layer1_7_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_7_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_8_1" copynumber="1">
+        <volumeref ref="FT3Layer1_8"/>
+        <positionref ref="FT3Layer1_8_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_8_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_9_1" copynumber="1">
+        <volumeref ref="FT3Layer1_9"/>
+        <positionref ref="FT3Layer1_9_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_9_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_10_1" copynumber="1">
+        <volumeref ref="FT3Layer1_10"/>
+        <positionref ref="FT3Layer1_10_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_10_1inFT3Vrot"/>
+      </physvol>
+      <physvol name="FT3Layer1_11_1" copynumber="1">
+        <volumeref ref="FT3Layer1_11"/>
+        <positionref ref="FT3Layer1_11_1inFT3Vpos"/>
+        <rotationref ref="FT3Layer1_11_1inFT3Vrot"/>
+      </physvol>
+    </assembly>
+    <volume name="barrel">
+      <materialref ref="CAVE_Air"/>
+      <solidref ref="shCaveTR"/>
+      <physvol name="OUT_PIPEVACUUM_1" copynumber="1">
+        <volumeref ref="OUT_PIPEVACUUM"/>
+        <positionref ref="OUT_PIPEVACUUM_1inbarrelpos"/>
+      </physvol>
+      <physvol name="OUT_PIPE_1" copynumber="1">
+        <volumeref ref="OUT_PIPE"/>
+        <positionref ref="OUT_PIPE_1inbarrelpos"/>
+      </physvol>
+      <physvol name="INN_PIPE_1" copynumber="1">
+        <volumeref ref="INN_PIPE"/>
+        <positionref ref="INN_PIPE_1inbarrelpos"/>
+      </physvol>
+      <physvol name="INN_PIPEVACUUM_1" copynumber="1">
+        <volumeref ref="INN_PIPEVACUUM"/>
+        <positionref ref="INN_PIPEVACUUM_1inbarrelpos"/>
+      </physvol>
+      <physvol name="ITSV_2" copynumber="2">
+        <volumeref ref="ITSV"/>
+        <positionref ref="ITSV_2inbarrelpos"/>
+      </physvol>
+      <physvol name="FT3V_2" copynumber="2">
+        <volumeref ref="FT3V"/>
+        <positionref ref="FT3V_2inbarrelpos"/>
+      </physvol>
+    </volume>
+    <volume name="caveRB24">
+      <materialref ref="ALICE3PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon"/>
+    </volume>
+    <volume name="cave">
+      <materialref ref="ALICE3PIPE_VACUUM"/>
+      <solidref ref="cave"/>
+      <physvol name="barrel_1" copynumber="1">
+        <volumeref ref="barrel"/>
+        <positionref ref="barrel_1incavepos"/>
+      </physvol>
+      <physvol name="caveRB24_1" copynumber="1">
+        <volumeref ref="caveRB24"/>
+        <positionref ref="caveRB24_1incavepos"/>
+      </physvol>
+    </volume>
+    <volume name="World">
+      <materialref ref="ALICE3PIPE_VACUUM" />
+      <solidref ref="world" />
+      <physvol>
+        <volumeref ref="cave"/>
+        <positionref ref="pos1"/>
+        <rotationref ref="rot1"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="World"/>
+  </setup>
+</gdml>
