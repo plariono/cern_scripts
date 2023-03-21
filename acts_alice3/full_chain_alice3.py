@@ -28,9 +28,9 @@ import alice3
 
 heavyion = False
 u = acts.UnitConstants
-geo_dir = pathlib.Path.cwd().parent
+geo_dir = pathlib.Path.cwd()
 outputDir = pathlib.Path(
-    "/Users/lrnvmbp14/alice/actsdir/acts/bin/output/python/ckf_PbPb_100ev_ptmin500MeV_seedconfset2_nobin_etawriter_paramsckfv13_cfg10_test")
+    "/output/python/ckf_PbPb_100ev_ptmin500MeV_seedconfset2_nobin_etawriter_paramsckfv13_cfg10_test")
 
 detector, trackingGeometry, decorators = alice3.buildALICE3Geometry(
     geo_dir, False, False, acts.logging.VERBOSE)
@@ -77,7 +77,7 @@ s = addDigitization(
     s,
     trackingGeometry,
     field,
-    digiConfigFile=geo_dir / "acts/bin/alice3-smearing-config.json",
+    digiConfigFile=geo_dir / "alice3-smearing-config.json",
     outputDirRoot=outputDir,
     rnd=rnd,
 )
@@ -178,7 +178,7 @@ s = addSeeding(
         # numPhiNeighbors=1,
     ),
     geoSelectionConfigFile=geo_dir /
-    "acts/bin/geoSelection-alice3-cfg10.json",
+    "geoSelection-alice3-cfg10.json",
     outputDirRoot=outputDir,
 )
 s = addCKFTracks(

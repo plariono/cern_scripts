@@ -106,7 +106,7 @@ def buildALICE3Geometry(
 
     matDeco = None
     if material:
-        file = geo_dir / "acts/bin/material-maps.root"
+        file = geo_dir / "material-maps.root"
         logger.info("Adding material from %s", file.absolute())
         matDeco = acts.IMaterialDecorator.fromFile(
             file,
@@ -114,10 +114,10 @@ def buildALICE3Geometry(
                 min(acts.logging.INFO.value, logLevel.value)),
         )
 
-    tgeo_fileName = geo_dir / "acts/bin/geom/o2sim_geometry_alice3.root"
+    tgeo_fileName = geo_dir / "geom/o2sim_geometry_alice3.root"
 
     if jsonconfig:
-        jsonFile = geo_dir / "acts/bin/tgeo-config.json"
+        jsonFile = geo_dir / "tgeo-config.json"
         logger.info("Create geometry from %s", jsonFile.absolute())
         return TGeoDetector.create(
             jsonFile=str(jsonFile),
