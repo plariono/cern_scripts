@@ -141,6 +141,8 @@ def buildALICE3Geometry(
         beamPipeRadius=3.7 * u.mm,
         beamPipeHalflengthZ=500.0 * u.mm,
         beamPipeLayerThickness=0.1 * u.mm,
+        beampipeEnvelopeR=0.1 * u.mm,
+        layerEnvelopeR=0.1 * u.mm,
         surfaceLogLevel=logLevel,
         layerLogLevel=logLevel,
         volumeLogLevel=logLevel,
