@@ -3,6 +3,7 @@ from acts.examples.reconstruction import (
     addSeeding,
     TruthSeedRanges,
     SeedFinderConfigArg,
+    SeedFinderOptionsArg,
     SeedFilterConfigArg,
     SpacePointGridConfigArg,
     SeedingAlgorithmConfigArg,
@@ -30,7 +31,7 @@ heavyion = False
 u = acts.UnitConstants
 geo_dir = pathlib.Path.cwd()
 outputDir = pathlib.Path(
-    "/output/python/ckf_PbPb_100ev_ptmin500MeV_seedconfset2_nobin_etawriter_paramsckfv13_cfg10_test")
+    "output/ckf_muongun_100ev_ptmin500MeV_paramsckfv13_cfg10")
 
 detector, trackingGeometry, decorators = alice3.buildALICE3Geometry(
     geo_dir, False, False, acts.logging.VERBOSE)
@@ -68,10 +69,10 @@ s = addFatras(
     s,
     trackingGeometry,
     field,
-    ParticleSelectorConfig(
+    rnd=rnd,
+    preSelectParticles=ParticleSelectorConfig(
         eta=(0.0, 4.0), pt=(500 * u.MeV, None), removeNeutral=False),
     outputDirRoot=outputDir,
-    rnd=rnd,
 )
 s = addDigitization(
     s,
@@ -86,7 +87,7 @@ s = addSeeding(
     trackingGeometry,
     field,
     TruthSeedRanges(pt=(0.5 * u.GeV, None), eta=(0, 4.0), nHits=(7, None)),
-    SeedfinderConfigArg(
+    SeedFinderConfigArg(
         r=(None, 200 * u.mm),
         deltaR=(1. * u.mm, 60 * u.mm),
         collisionRegion=(-250 * u.mm, 250 * u.mm),
@@ -95,10 +96,9 @@ s = addSeeding(
         sigmaScattering=5.,
         radLengthPerSeed=0.1,
         minPt=500 * u.MeV,
-        bFieldInZ=1.99724 * u.T,
         impactMax=3. * u.mm,
         cotThetaMax=27.2899,
-        seedConfirmation=True,
+        seedConfirmation=False,
         centralSeedConfirmationRange=acts.SeedConfirmationRangeConfig(
             zMinSeedConf=-620 * u.mm,
             zMaxSeedConf=620 * u.mm,
@@ -119,8 +119,9 @@ s = addSeeding(
         #deltaRMiddleMaxSPRange=10 * u.mm,
         deltaRMiddleSPRange=(1 * u.mm, 10 * u.mm),
     ),
+    SeedFinderOptionsArg(bFieldInZ = 2 * u.T, beamPos=(0 * u.mm, 0 * u.mm)),
     SeedFilterConfigArg(
-        seedConfirmation=True,
+        seedConfirmation=False,
         maxSeedsPerSpMConf=5,
         maxQualitySeedsPerSpMConf=5,
     ),
@@ -192,17 +193,3 @@ s = addCKFTracks(
 
 s.run()
 
-# Config that results in high efficiencies (from seeding.py)
-# SeedfinderConfigArg(
-#     r=(None, 200 * u.mm),
-#     deltaR=(1. * u.mm, 60 * u.mm),
-#     collisionRegion=(-250 * u.mm, 250 * u.mm),
-#     z=(-2000 * u.mm, 2000 * u.mm),
-#     maxSeedsPerSpM=1,
-#     sigmaScattering=50,
-#     radLengthPerSeed=0.1,
-#     minPt=500 * u.MeV,
-#     bFieldInZ=1.99724 * u.T,
-#     impactMax=3 * u.mm,
-#     cotThetaMax=27.2899,
-# )
