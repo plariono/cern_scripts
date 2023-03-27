@@ -32,6 +32,8 @@ u = acts.UnitConstants
 geo_dir = pathlib.Path.cwd()
 outputDir = pathlib.Path(
     "output/ckf_muongun_100ev_ptmin500MeV_paramsckfv13_cfg10")
+if not outputDir.exists():
+    outputDir.mkdir()
 
 detector, trackingGeometry, decorators = alice3.buildALICE3Geometry(
     geo_dir, False, False, acts.logging.VERBOSE)
@@ -115,11 +117,11 @@ s = addSeeding(
         ),
         skipPreviousTopSP=True,
         useVariableMiddleSPRange=True,
-        #deltaRMiddleMinSPRange=10 * u.mm,
-        #deltaRMiddleMaxSPRange=10 * u.mm,
+        # deltaRMiddleMinSPRange=10 * u.mm,
+        # deltaRMiddleMaxSPRange=10 * u.mm,
         deltaRMiddleSPRange=(1 * u.mm, 10 * u.mm),
     ),
-    SeedFinderOptionsArg(bFieldInZ = 2 * u.T, beamPos=(0 * u.mm, 0 * u.mm)),
+    SeedFinderOptionsArg(bFieldInZ=2 * u.T, beamPos=(0 * u.mm, 0 * u.mm)),
     SeedFilterConfigArg(
         seedConfirmation=False,
         maxSeedsPerSpMConf=5,
@@ -192,4 +194,3 @@ s = addCKFTracks(
 )
 
 s.run()
-
