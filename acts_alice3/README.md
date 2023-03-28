@@ -2,6 +2,8 @@
 
 ## Instructions how to run the full chain simulation and reconstruction.
 
+Full ACTS documentation is located [here](https://acts.readthedocs.io/en/latest/).
+
 Assuming the ACTS software is installed with aliBuild and the directory with the provided files is cloned into the `alice` directory.
 
 Setup the python bindings: 
@@ -17,5 +19,5 @@ python full_chain_alice3.py
 
 This will create the output root files in the `output` directory.
 The following configuration is set:
-* particle gun with $\mu^{\pm}$ with $\it{p}_{\rm{T}}$ from 0.5 to 10 GeV/$\it{c}$
+* particle gun with $\mu^{\pm}$ with $\it{p}_{\rm{T}}$ from 0.5 to 10 GeV/*c*
 * seeding configuration is given in the `addSeeding` section and the CKF one in the `addCKFTracks`
