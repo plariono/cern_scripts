@@ -30,10 +30,9 @@ import alice3
 heavyion = False
 u = acts.UnitConstants
 geo_dir = pathlib.Path.cwd()
-outputDir = pathlib.Path(
-    "output/ckf_muongun_100ev_ptmin500MeV_paramsckfv13_cfg10")
+outputDir = pathlib.Path.cwd() / "output/ckf_muongun_100ev_ptmin500MeV_paramsckfv13_cfg10"
 if not outputDir.exists():
-    outputDir.mkdir()
+    outputDir.mkdir(mode = 0o777, parents= True, exist_ok= True)
 
 detector, trackingGeometry, decorators = alice3.buildALICE3Geometry(
     geo_dir, False, False, acts.logging.VERBOSE)
