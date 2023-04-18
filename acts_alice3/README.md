@@ -4,7 +4,12 @@
 
 Full ACTS documentation is located [here](https://acts.readthedocs.io/en/latest/).
 
-Assuming the ACTS software is installed with aliBuild and the directory with the provided files is cloned into the `alice` directory.
+Assuming the ACTS software is installed with aliBuild and the directory with the provided files is cloned into the `alice` directory:
+```
+cd alice
+git clone git@github.com:AliceO2Group/acts.git ACTS
+aliBuild build ACTS -d
+```
 
 Setup the python bindings: 
 * ```cd acts_alice3```
